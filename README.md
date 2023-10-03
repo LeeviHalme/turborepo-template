@@ -1,24 +1,22 @@
-# Turborepo starter
+# turborepo-template
 
-This is an official starter Turborepo.
+Turborepo [https://turbo.build/repo](https://turbo.build/repo) template customized for personal preferences.
 
-## Using this example
+## Using this template
 
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+Visit [GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for complete instructions.
 
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
 
-### Apps and Packages
+### Apps
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `react`: a TypeScript React App built with [Vite.js](https://vitejs.dev/)
+- `node`: a TypeScript Node.js JSON API
+
+### Packages
+
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
@@ -38,7 +36,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm build
+npm build
 ```
 
 ### Develop
@@ -47,7 +45,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm dev
+npm dev
 ```
 
 ### Remote Caching
