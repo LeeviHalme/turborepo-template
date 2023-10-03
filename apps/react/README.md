@@ -14,6 +14,8 @@ This template includes the following packages added for convenience:
 - `react-router-dom`: [React Router](https://reactrouter.com/) for SPA routing.
 - `tailwindcss`: [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS.
 - `@headlessui/react`: [Headless UI](https://headlessui.dev/) for unstyled UI components.
+- `@heroicons/react`: [Heroicons](https://heroicons.com/) for SVG icons.
+- `react-query`: [React Query](https://react-query.tanstack.com/) for data fetching.
 
 ## Expanding the ESLint configuration
 
